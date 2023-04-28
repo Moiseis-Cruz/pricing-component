@@ -20,6 +20,7 @@
     height: 32px;
     border-radius: 16px;
     position: relative;
+    cursor: pointer;
 }
 
 .section-options .space .options {
@@ -30,7 +31,6 @@
     position: absolute;
     top: 50%;
     transform: translatey(-50%);
-    cursor: pointer;
 }
 
 .option {
