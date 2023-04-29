@@ -26,12 +26,12 @@ main {
 }
 
 .section-options .space {
-    background-color: var(--tertiary-color);
     width: 56px;
     height: 32px;
     border-radius: 16px;
     position: relative;
     cursor: pointer;
+    background: linear-gradient(135deg, hsl(236, 72%, 79%),  hsl(237, 63%, 64%));
 }
 
 .section-options .space .options {
@@ -107,4 +107,11 @@ button {
     font-weight: 700;
     border: none;
     border-radius: 6px;
+    cursor: pointer;
+}
+
+button:active {
+    background: #ffffff;
+    color: #6D72DE;
+    border: 1px solid #6D72DE;
 }
