@@ -101,3 +101,15 @@ main {
 .list li:last-child {
     border-bottom: 1px solid var(--quartiary-color);
 }
+
+button {
+    margin-top: 32px;
+    width: 288px;
+    height: 44px;
+    background: linear-gradient(135deg, hsl(236, 72%, 79%),  hsl(237, 63%, 64%));
+    color: var(--primary-color);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border: none;
+    border-radius: 6px;
+}
