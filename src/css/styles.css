@@ -1,7 +1,7 @@
 main {
     background: url(../images/bg-bottom.svg) left 0 bottom 0 no-repeat, url(../images/bg-top.svg) right -98px top -103px no-repeat;
     width: 100%;
-    min-height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,9 +12,6 @@ main {
     margin-top: 71px;
     margin-bottom: 64px;
 }
-
-/* .container-cards {
-} */
 
 .section-options {
     display: flex;
@@ -55,6 +52,7 @@ main {
 
 .container-cards {
     display: flex;
+    align-items: center;
 }
 
 .container-cards .card {
@@ -64,12 +62,13 @@ main {
     margin-bottom: 10px;
     border-radius: 10px;
     padding: 31px;
+    height: 453px;
 }
 
 .container-cards .card:nth-child(2){
     background: linear-gradient(135deg, hsl(236, 72%, 79%),  hsl(237, 63%, 64%));
     padding: 56px 31px;
-    transform: scaley(1.1);
+    height: 501px;
 }
 
 .container-cards .card:nth-child(2) .plan {
