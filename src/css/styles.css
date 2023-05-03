@@ -7,6 +7,28 @@ main {
     align-items: center;
 }
 
+.container-plans {
+    width: 239px;
+    text-align: center;
+    margin-top: 71px;
+}
+
+.container-plans .title {
+    color: var(--quartiary-color);
+    font-size: 32px;
+}
+
+.container-plans .options-plans {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.container-plans .options-plans p {
+    font-size: 15px;
+    color: var(--secundary-color);
+}
+
 .container-cards {
     display: flex;
     align-items: center;
