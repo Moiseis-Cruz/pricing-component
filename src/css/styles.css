@@ -45,15 +45,6 @@ main {
     transform: translatey(-50%);
 } */
 
-#switch {
-    /* display: none; */
-}
-
-#switch:checked ~ .inner .circle {
-    position: absolute;
-    right: 0;
-}
-
 .toggle {
     background: linear-gradient(135deg, hsl(236, 72%, 79%),  hsl(237, 63%, 64%));
     width: 56px;
@@ -72,6 +63,16 @@ main {
     margin: 4px;
     position: absolute;
     /* right: 0; */
+}
+
+#switch {
+    /* display: none; */
+}
+
+#switch:checked ~ .toggle .circle {
+    position: absolute;
+    background: red;
+    right: 0;
 }
 
 .option {
