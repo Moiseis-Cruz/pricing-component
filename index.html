@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/variables.css">
     <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
     <title>pricing Component With Toggle Master</title>
     <link rel="shortcut icon" href="./src/favicon/favicon-32x32.png" type="image/x-icon">
 </head>
@@ -16,8 +17,8 @@
             <h1 class="title">Our Pricing</h1>
             <div class="options-plans">
                 <p>Annually</p>
-                <div class="teste">
-                    <label for="toggle">
+                <div>
+                    <label for="toggle" class="toggle">
                         <input type="checkbox" name="toggle" id="toggle">
                         <span class="circle"></span>
                     </label>
@@ -66,7 +67,7 @@
             </div>
         </section>
 
-        <section class="container-cards" style="display: none;">
+        <section class="container-cards actived">
             <div class="card">
                 <h2 class="plan">Basic</h2>
                 <p class="price">$ <strong>199.99</strong></p>
@@ -107,5 +108,7 @@
             </div>
         </section>
     </main>
+
+    <script src="./src/js/index.js"></script>
 </body>
 </html>
