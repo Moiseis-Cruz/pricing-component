@@ -1,0 +1,24 @@
+@media (max-width: 375px) {
+    main {
+        background: url(../images/bg-bottom.svg) left 0 bottom 0 no-repeat, url(../images/bg-top.svg) right -98px top -103px no-repeat;
+        max-width: 375px;
+    }
+
+    .container-plans {
+        margin-top: 64px;
+    }
+
+    .container-cards {
+        flex-direction: column;
+        margin: 80px;
+        gap: 32px;
+    }
+
+    .container-cards .card {
+        width: 327px;
+        margin-top: 0;
+        margin-bottom: 0;
+        border-radius: 0;
+        padding: 31px 29px;
+    }
+}
