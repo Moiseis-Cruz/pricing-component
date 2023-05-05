@@ -1,11 +1,11 @@
-const btnOption = document.getElementById("toggle")
+const btnToggle = document.getElementById("toggle")
 
-btnOption.addEventListener("change", function(){
-    const containerCards = document.getElementsByClassName("container-cards")
+let sectionCards = document.querySelectorAll(".container-cards")
 
-    const sectionActived = document.querySelector(".actived")
+let sectionActived = document.querySelector(".actived")
 
-    const containerActived = sectionActived.classList.contains("active")
+let sectionDisplayed = sectionActived.classList.contains("actived")
 
+btnToggle.addEventListener("change", function(){
     
 })
