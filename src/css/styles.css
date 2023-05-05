@@ -92,7 +92,7 @@ input[type="checkbox"]:checked ~.circle {
     color: #ffffff;
 }
 
-.container-cards .card:nth-child(2) .price {
+.container-cards .card:nth-child(2) .content-price {
     color: #ffffff;
 }
 
@@ -124,16 +124,22 @@ input[type="checkbox"]:checked ~.circle {
     color: var(--quartiary-color);
 }
 
-.price {
+.content-price {
     color: var(--quartiary-color);
-    font-size: 40px;
     margin-top: 24px;
-    line-height: 49px;
+    display: flex;
+    align-items: center;
+    height: 71px;
 }
 
-.price strong {
+.price {
+    font-size: 40px;
+    /* line-height: 49px; */
+}
+
+.content-price span {
     font-size: 72px;
-    line-height: 70px;
+    /* line-height: 70px; */
 }
 
 .list {
