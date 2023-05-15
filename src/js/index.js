@@ -1,11 +1,16 @@
 const btnToggle = document.getElementById("toggle")
 
-let sectionCards = document.querySelectorAll(".container-cards")
+const sectionCards = document.querySelectorAll(".container-cards")
 
 let sectionActived = document.querySelector(".actived")
 
-let sectionDisplayed = sectionActived.classList.contains("actived")
+const sectionDisplayed = sectionActived.classList.contains("actived")
 
-btnToggle.addEventListener("change", function(){
-    
+btnToggle.addEventListener("click", function(){
+    if(sectionDisplayed.checked === true){
+        // sectionDisplayed.classList.remove("actived")
+        sectionActived.classList.remove("actived")
+    }else{
+
+    }
 })
