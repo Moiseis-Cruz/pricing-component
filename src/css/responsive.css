@@ -1,4 +1,4 @@
-@media (max-width: 425px) {
+@media (max-width: 768px) {
     main {
         background: url(../images/bg-bottom.svg) left 0 bottom 0 no-repeat, url(../images/bg-top.svg) right -98px top -103px no-repeat;
         max-width: 375px;
