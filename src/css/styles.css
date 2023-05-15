@@ -134,12 +134,10 @@ input[type="checkbox"]:checked ~.circle {
 
 .price {
     font-size: 40px;
-    /* line-height: 49px; */
 }
 
 .content-price span {
     font-size: 72px;
-    /* line-height: 70px; */
 }
 
 .list {
