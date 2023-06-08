@@ -4,8 +4,9 @@ const containerCards = document.querySelectorAll(".container-cards")
 
 btnToggle.addEventListener("click", () => {
     desativarSecao()
+
     containerCards.forEach(e => {
-        e[i].classList.toggle("actived")
+        e.classList.toggle("actived")
     })
 })
 
