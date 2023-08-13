@@ -1,6 +1,5 @@
 const btnToggle = document.getElementById("toggle")
 
-
 btnToggle.addEventListener("click", () => {
     const plans = document.querySelectorAll(".container-cards")
 
