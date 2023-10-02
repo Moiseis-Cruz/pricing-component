@@ -4,7 +4,7 @@ const containerCards = document.querySelectorAll(".container-cards")
 
 const containerActived = document.querySelector(".actived.container-cards")
 
-btnToggle.addEventListener("click", (event, index) => {
+btnToggle.addEventListener("click", () => {
     
     if(btnToggle.checked === true){
         containerActived.classList.remove("actived")
