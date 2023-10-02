@@ -9,8 +9,6 @@ btnToggle.addEventListener("click", (event, index) => {
     if(btnToggle.checked === true){
         containerActived.classList.remove("actived")
         
-        console.log(event);
-        
         containerCards[1].classList.add("actived")
     }else{
         containerActived.classList.add("actived")
@@ -18,6 +16,3 @@ btnToggle.addEventListener("click", (event, index) => {
         containerCards[1].classList.remove("actived")
     }
 })
-
-/*
-*/
