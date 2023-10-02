@@ -4,11 +4,11 @@ Desafio do FrontEnd Mentor para criar um componente de preços de planos mensais
 
 ## Minhas dificudades:
 
-Minha principal dificuldade foi em realizar a lógica de programação. Pois, estava conseguindo mudar de um plano para o outro, porém, ao clicar no botão para retornar ao plano anterior, não estava obtendo sucesso.
+Minha principal dificuldade foi em realizar a lógica de programação. Pois, estava conseguindo mudar dos planos anuais para mensais, porém, ao clicar no botão para retornar aos planos anteriores, não estava obtendo sucesso.
 
 <br>
 
-Para resolver o problema consegui manipular os elementos, criando um array dos elementos. Podendo assim manipulá-los individualmente. Para assim poder mostrar as opções referentes aos planos. 
+Para resolver o problema consegui manipular os elementos, criando um array. Podendo assim manipulá-los individualmente. Para assim poder mostrar as opções referentes aos planos. 
 
 ## Tecnologias utilizadas:
 
