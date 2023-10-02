@@ -1,34 +1,22 @@
-const btnToggle = document.getElementById("toggle")
-
-btnToggle.addEventListener("click", () => {
-    const plans = document.querySelectorAll(".container-cards")
-
-    plans.forEach((listPlans) => {
-        const sectionActived = document.querySelector(".actived")
-
-        sectionActived.classList.remove("actived")
-        
-        listPlans.classList.add("actived")
-    })
-})
-
-
 /*
-const btnToggle = document.querySelector("#toggle")
+const btnToggle = document.getElementById("toggle")
 
 const containerCards = document.querySelectorAll(".container-cards")
 
-btnToggle.addEventListener("click", () => {
-    desativarSecao()
+const containerActived = document.querySelector(".actived.container-cards")
 
-    containerCards.forEach(e => {
-        e.classList.toggle("actived")
-    })
+btnToggle.addEventListener("click", (event, index) => {
+    
+    if(btnToggle.checked === true){
+        containerActived.classList.remove("actived")
+
+        console.log(event);
+        
+        containerCards[1].classList.add("actived")
+    }else{
+        containerActived.classList.add("actived")
+
+        containerCards[1].classList.remove("actived")
+    }
 })
-
-function desativarSecao() {
-    const sectionActived = document.querySelector(".actived")
-
-    sectionActived.classList.remove("actived")
-}
 */
