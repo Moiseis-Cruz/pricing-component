@@ -1,9 +1,9 @@
-/*
 const btnToggle = document.getElementById("toggle")
 
 const containerCards = document.querySelectorAll(".container-cards")
 
 const containerActived = document.querySelector(".actived.container-cards")
+/*
 
 btnToggle.addEventListener("click", (event, index) => {
     
