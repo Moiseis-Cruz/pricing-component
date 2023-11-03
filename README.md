@@ -16,5 +16,4 @@ Para resolver o problema consegui manipular os elementos, criando um array. Pode
 - CSS3;
 - JavaScript;
 
-
 <img src="./src/images/pricing-component.gif" alt="gif pricing component" value="gif pricing component">
